@@ -13,4 +13,28 @@
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0);
   }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    height: 95px;
+  }
+
+  .header2 {
+    display: flex;
+    justify-items: center;
+    margin: 10px;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .reservation {
+    margin: right;
+  }
 }

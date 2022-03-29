@@ -1,25 +1,27 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 73rem) {
 
   header {
     display: flex;
-    justify-content: space-around;
-    height: 70px;
+    justify-content: space-evenly;
+    height: 80px;
+  }
+
+  nav ul li a {
+    font-size: 1.5rem;
   }
 
   .header2 {
-    margin-left: -250px;
+    margin: right;
   }
 
   .logo {
-    margin: 0 auto;
-    z-index: 55;
+    margin: center;
     background-color: #A12B2B;
-    z-index: 90;
-    position: absolute;
-    margin-top: 100px;
+    margin-top: 87px;
     border-radius: 10px;
     width: 200px;
     display: flex;
+    box-shadow: 10px 10px 70px #474747;
   }
 
   .logo img {
@@ -28,6 +30,10 @@
   }
 
   .reservation {
-    margin: right;
+    margin: 0 auto;
+  }
+
+  .reservation a {
+    font-size: 1.5rem;
   }
 }
