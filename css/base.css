@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #A12B2B;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #bbb;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* nav css*/
+nav {
+    margin: 0 auto;
+    max-width: 767px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    background-color: #A12B2B;
+    transition: 0.5s;
+    font-family: 'Abril Fatface', cursive;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerbtn span:nth-child(1) {
+    display: block;
+    align-items: center;
+}
+
+#hamburgerbtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerbtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerbtn.open span:nth-child(2) {
+    display: block;
+}
+
+nav button {
+    color: #474747;
+    background-color: #f6f1ea;
+    transition: 0.5s;
+    border: none;
+    font-size: 2rem;
+}
+
+nav a:hover {
+    background-color: #EBCB9A;
+    color: #474747;
+}
+
+.reservation a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    background-color: #A12B2B;
+    transition: 0.5s;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.reservation a:hover {
+    background-color: #EBCB9A;
+    color: #474747;
+    border-radius: 10px;
+}

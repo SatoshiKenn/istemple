@@ -1,0 +1,33 @@
+@media only screen and (min-width: 64rem) {
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+  }
+
+  .header2 {
+    margin-left: -250px;
+  }
+
+  .logo {
+    margin: 0 auto;
+    z-index: 55;
+    background-color: #A12B2B;
+    z-index: 90;
+    position: absolute;
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+  }
+
+  .logo img {
+    width: 150px; 
+    margin: 0 auto;
+  }
+
+  .reservation {
+    margin: right;
+  }
+}
