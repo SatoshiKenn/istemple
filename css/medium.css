@@ -37,4 +37,38 @@
   .reservation {
     margin: right;
   }
+
+  footer {
+    display: flex;
+  }
+
+  #fpart1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  #fpart2 {
+    display: flex;
+    color: #FFFF;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .email,
+  .phone {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  /*footer css*/
+  #logo {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #logo img {
+    width: 150px;
+  }
 }

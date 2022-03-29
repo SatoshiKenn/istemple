@@ -114,3 +114,42 @@ nav a:hover {
     color: #474747;
     border-radius: 10px;
 }
+
+/*footer css*/
+
+footer {
+    color: #373737;
+    font-size: 0.6rem;
+    font-family: 'Lora', serif;
+    background-color: #A12B2B;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#fpart2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.email,
+.phone {
+    font-size: 0.7rem;
+    padding: 10px;
+    color: #FFFF;
+}
+
+#logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo img {
+    width: 150px;
+}

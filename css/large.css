@@ -25,7 +25,7 @@
   }
 
   .logo img {
-    width: 150px; 
+    width: 150px;
     margin: 0 auto;
   }
 
@@ -36,4 +36,47 @@
   .reservation a {
     font-size: 1.5rem;
   }
+
+  /*footer css*/
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    margin-top: 50px;
+  }
+
+  #welcome {
+    grid-column: 1/6;
+    grid-row: 1;
+    text-align: center;
+  }
+
+  .weathertemple {
+    grid-column: 1/2;
+    grid-row: 2/4;
+  }
+
+  main div:nth-child(3) {
+    grid-row: 2;
+    grid-column: 2/4;
+  }
+
+  main div:nth-child(4) {
+    grid-row: 2;
+    grid-column: 4/6;
+  }
+
+  main div:nth-child(5) {
+    grid-row: 3;
+    grid-column: 2/4;
+  }
+
+  main div:nth-child(6) {
+    grid-row: 3;
+    grid-column: 4/6;
+  }
+
+  /*footer css*/
+
+
 }
