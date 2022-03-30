@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Lora', serif;
+}
+
 header {
     background-color: #A12B2B;
     padding: 5px 0;
@@ -15,6 +19,12 @@ header {
     border-bottom: 1px solid #bbb;
     display: flex;
     justify-content: space-evenly;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Abril Fatface', cursive;
 }
 
 .header2 {
@@ -118,7 +128,7 @@ nav a:hover {
 /*footer css*/
 
 footer {
-    color: #373737;
+    color: #FFFF;
     font-size: 0.6rem;
     font-family: 'Lora', serif;
     background-color: #A12B2B;
@@ -149,6 +159,10 @@ footer {
 .email:hover,
 .phone:hover {
     color: #EBCB9A;
+}
+
+.social {
+    width: 70px;
 }
 
 #last a {

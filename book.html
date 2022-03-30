@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Temple Inn & Suites" content="Temple Inn & Suites, Bethesda." />
+    <link rel="shortcut icon" href="images/faviconb.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/navigation.js"></script>
+    <script defer src="js/footer.js"></script>
+    <title>Temple Inn & Suites</title>
+  </head>
+  <body>
+    <header>
+      <div class="header2">
+        <div id="nav">
+          <nav>
+            <button id="hamburgerbtn">
+              <span>&#9776;</span><span>X</span>
+            </button>
+            <ul id="primarynav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Temple</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <p><span id="date"></span></p>
+      </div>
+      <div class="logo">
+        <img src="images/logow.webp" alt="Temple Inn & Suites Logo" />
+      </div>
+      <div class="reservation">
+        <a href="#">Book Now</a>
+      </div>
+    </header>
+    <main id="bform">
+        <h1 id="h1form">Book Form</h1>
+        <h2 id="h2form">Membership Levels</h2>
+        <div id="membershipi">
+          <article class="cardm">
+            <h2>Regular Room</h2>
+            <img class="roomimg" src="" alt="Regular room img">
+              <p>
+                Information
+              </p>
+          </article>
+          <article class="cardm">
+            <h2>Family Room</h2>
+            <img class="roomimg" src="" alt="Family room img">
+              <p>
+                Information
+              </p>
+          </article>
+          <article class="cardm">
+            <h2>Premium Room</h2>
+            <img class="roomimg" src="" alt="Premium room img">
+              <p>
+                Information
+              </p>
+          </article>
+        </div>
+        <form id="form" method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+                <input id="formdate" type="hidden" name="date">
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Position<input type="text" name="title" pattern="([a-zA-Z -]+)" minlength="7"></label>
+                <label class="top">Business Name<input type="text" name="bname" required></label>
+                <label class="top">Business Description <textarea id="description" name="bdescription"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="audience" value="npm"> NP Membership - FREE</label>
+                <label class="sbs"><input type="radio" name="audience" value="bm"> Bronze Membership - $9,990 CLP</label>
+                <label class="sbs"><input type="radio" name="audience" value="sm"> Silver Membership - $19,990 CLP</label> 
+                <label class="sbs"><input type="radio" name="audience" value="gm"> Gold Membership - $29,990 CLP</label>
+            </fieldset>
+            <p id="requiredf">All the fields that has an asterisk(*) are a required field to submit the form.</p>
+            <input type="submit" value="Join!" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+      <div id="fpart1">
+        <div id="logo">
+          <img src="images/logow.webp" alt="Temple Inn & Suites Logo" />
+        </div>
+        <a class="email" href="mailto:inn.suites@istemple.com" target="_blank"
+          >inn.suites@istemple.com</a
+        >
+        <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
+        <a href="https://www.facebook.com" target="_blank"><img class="social" src="images/facebook.webp" alt="Facebook Icon"></a>
+        <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/instagram.webp" alt="Instagram Icon"></a>
+      </div>
+      <div id="fpart2">
+        <div id="last">
+          <p id="lastmodified">test</p>
+          <p>
+            Weather powered by
+            <a href="https://openweathermap.org/" target="_blank"
+              >OpenWeatherMap</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
