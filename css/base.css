@@ -143,6 +143,21 @@ footer {
     font-size: 0.7rem;
     padding: 10px;
     color: #FFFF;
+    text-decoration: none;
+}
+
+.email:hover,
+.phone:hover {
+    color: #EBCB9A;
+}
+
+#last a {
+    color: #FFFF;
+    text-decoration: none;
+}
+
+#last a:hover {
+    color: #EBCB9A;
 }
 
 #logo {
