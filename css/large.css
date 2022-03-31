@@ -36,7 +36,6 @@
     font-size: 1.5rem;
   }
 
-  /*footer css*/
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -79,6 +78,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+    margin-top: 50px;
   }
 
   #h1form {

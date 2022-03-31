@@ -1,184 +1,311 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 header {
-    background-color: #A12B2B;
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
-    margin: 0 auto;
-    border-bottom: 1px solid #bbb;
-    display: flex;
-    justify-content: space-evenly;
+  background-color: #a12b2b;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #bbb;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
 }
 
 .header2 {
-    display: flex;
-    justify-items: center;
-    margin: 10px;
+  display: flex;
+  justify-items: center;
+  margin: 10px;
 }
 
 .logo {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .logo img {
-    width: 100px;
+  width: 100px;
 }
 
 /* nav css*/
 nav {
-    margin: 0 auto;
-    max-width: 767px;
-    text-align: center;
+  margin: 0 auto;
+  max-width: 767px;
+  text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
-    overflow: hidden;
-    border-radius: 10px;
+  list-style-type: none;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 nav ul li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 0.75rem;
-    text-decoration: none;
-    font-size: 0.95rem;
-    background-color: #A12B2B;
-    transition: 0.5s;
-    font-family: 'Abril Fatface', cursive;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background-color: #a12b2b;
+  transition: 0.5s;
+  font-family: "Abril Fatface", cursive;
 }
 
 nav ul {
-    display: none;
+  display: none;
 }
 
 nav ul.open {
-    display: block;
+  display: block;
 }
 
 #hamburgerbtn span:nth-child(1) {
-    display: block;
-    align-items: center;
+  display: block;
+  align-items: center;
 }
 
 #hamburgerbtn span:nth-child(2) {
-    display: none;
+  display: none;
 }
 
 #hamburgerbtn.open span:nth-child(1) {
-    display: none;
+  display: none;
 }
 
 #hamburgerbtn.open span:nth-child(2) {
-    display: block;
+  display: block;
 }
 
 nav button {
-    color: #474747;
-    background-color: #f6f1ea;
-    transition: 0.5s;
-    border: none;
-    font-size: 2rem;
-    border-radius: 3px;
-    height: 40px;
-    width: 40px;
+  color: #474747;
+  background-color: #f6f1ea;
+  transition: 0.5s;
+  border: none;
+  font-size: 2rem;
+  border-radius: 3px;
+  height: 40px;
+  width: 40px;
 }
 
 nav a:hover {
-    background-color: #EBCB9A;
-    color: #474747;
+  background-color: #ebcb9a;
+  color: #474747;
 }
 
 .reservation a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 0.75rem;
-    text-decoration: none;
-    font-size: 0.95rem;
-    background-color: #A12B2B;
-    transition: 0.5s;
-    font-family: 'Abril Fatface', cursive;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background-color: #a12b2b;
+  transition: 0.5s;
+  font-family: "Abril Fatface", cursive;
 }
 
 .reservation a:hover {
-    background-color: #EBCB9A;
-    color: #474747;
-    border-radius: 10px;
+  background-color: #ebcb9a;
+  color: #474747;
+  border-radius: 10px;
 }
 
 /*footer css*/
 
 footer {
-    color: #FFFF;
-    font-size: 0.6rem;
-    font-family: 'Lora', serif;
-    background-color: #A12B2B;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #ffff;
+  font-size: 0.6rem;
+  font-family: "Lora", serif;
+  background-color: #a12b2b;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#fpart1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  text-align: center;
 }
 
 #fpart2 {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .email,
 .phone {
-    font-size: 0.7rem;
-    padding: 10px;
-    color: #FFFF;
-    text-decoration: none;
+  font-size: 0.7rem;
+  padding: 10px;
+  color: #ffff;
+  text-decoration: none;
 }
 
 .email:hover,
 .phone:hover {
-    color: #EBCB9A;
+  color: #ebcb9a;
 }
 
 .social {
-    width: 70px;
+  width: 70px;
+}
+
+#fpart1 a:nth-child(4) {
+  grid-row: 4;
+}
+
+#fpart1 a:nth-child(5) {
+  grid-row: 4;
 }
 
 #last a {
-    color: #FFFF;
-    text-decoration: none;
+  color: #ffff;
+  text-decoration: none;
 }
 
 #last a:hover {
-    color: #EBCB9A;
+  color: #ebcb9a;
 }
 
 #logo {
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1/3;
 }
 
 #logo img {
-    width: 150px;
+  width: 150px;
 }
+
+/*form*/
+
+form fieldset {
+  margin: 0.5rem 0;
+  border: 3px solid #ebcb9a;
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c12;
+  font-size: 0.8rem;
+}
+
+form label.top input,
+form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 100%;
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #373737;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border: red solid 1.5px;
+}
+
+form label.top input:required:valid {
+  border: green solid 1.5px;
+}
+
+#description {
+  width: 100%;
+  vertical-align: top;
+  height: 5em;
+}
+
+#bform {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#requiredf {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  color: red;
+  font-size: 0.9rem;
+}
+
+#membershipi {
+  display: flex;
+  flex-flow: column;
+}
+
+.cardm {
+  width: 300px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cardm p,
+.cardm h2 {
+  font-size: 0.8rem;
+}
+
+#h1form {
+  font-size: 1.5rem;
+}
+
+/*thanks page*/
+#thanks {
+    display: block;
+    text-align: center;
+  }
