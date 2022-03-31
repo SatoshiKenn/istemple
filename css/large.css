@@ -1,5 +1,4 @@
 @media only screen and (min-width: 73rem) {
-
   header {
     display: flex;
     justify-content: space-evenly;
@@ -15,7 +14,7 @@
   }
 
   .logo {
-    background-color: #A12B2B;
+    background-color: #a12b2b;
     margin-top: 87px;
     border-radius: 10px;
     width: 200px;
@@ -79,6 +78,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     margin-top: 50px;
+    max-width: 1000px;
   }
 
   #h1form {
@@ -97,5 +97,7 @@
     grid-column: 2;
   }
 
-
+  #address {
+    font-size: 1rem;
+  }
 }

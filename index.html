@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/navigation.js"></script>
     <script defer src="js/footer.js"></script>
+    <script defer src="js/weather.js"></script>
     <title>Temple Inn & Suites</title>
   </head>
   <body>
@@ -49,7 +50,14 @@
     </header>
     <main>
       <div class="weathertemple">
-        <p>Temple Spotlight and Weather API</p>
+        <section>
+          <h2 id="weatherheading">Estacion Central Weather</h2>
+          <img src="" alt="" id="weathericon" />
+          <p id="figcaption"></p>
+          <p>Current Temp: <span id="t"></span>&#176;F</p>
+          <p>Current Condition: <span id="c"></span></p>
+          <p>Humidity: <span id="h"></span></p>
+        </section>
       </div>
       <div class="information">
         <h2>Information 1</h2>
@@ -79,6 +87,8 @@
         <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
         <a href="https://www.facebook.com" target="_blank"><img class="social" src="images/facebook.webp" alt="Facebook Icon"></a>
         <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/instagram.webp" alt="Instagram Icon"></a>
+        <a href="https://goo.gl/maps/tx4ZZjSq3oX6MF1C9" target="_blank"><img class="social" src="images/maps.webp" alt="maps Icon"></a>
+        <p id="address">4840 Montgomery Ln #320, Bethesda, MD 20814, USA</p>
       </div>
       <div id="fpart2">
         <div id="last">

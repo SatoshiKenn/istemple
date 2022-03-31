@@ -129,4 +129,9 @@
     width: 100px;
     height: auto;
   }
+
+  #address {
+    display: block;
+    font-size: .8rem;
+  }
 }
