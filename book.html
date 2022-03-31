@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="Temple Inn & Suites" content="Temple Inn & Suites, Bethesda." />
+    <meta name="Temple Inn & Suites" content="Temple Inn & Suites, Bethesda Book  " />
     <link rel="shortcut icon" href="images/faviconb.webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -75,29 +75,27 @@
         </div>
         <form id="form" method="get" action="thanks.html">
             <fieldset>
+                <legend>Your Stay</legend>
+                <label class="top">Check-In<input type="date" name="checkin" required></label>
+                <label class="top">Check-Out<input type="date" name="checkout" required></label>
+            </fieldset>
+            <fieldset>
                 <legend>Contact Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
-                <label class="top">Website <input type="url" name="url" placeholder="http://"></label>
+                <label class="top">Home State/Country <input type="text" name="home" required></label>
                 <input id="formdate" type="hidden" name="date">
             </fieldset>
             <fieldset>
-                <legend>Business Information</legend>
-                <label class="top">Business Position<input type="text" name="title" pattern="([a-zA-Z -]+)" minlength="7"></label>
-                <label class="top">Business Name<input type="text" name="bname" required></label>
-                <label class="top">Business Description <textarea id="description" name="bdescription"></textarea></label>
-            </fieldset>
-            <fieldset>
-                <legend>Membership Level</legend>
-                <label class="sbs"><input type="radio" name="audience" value="npm"> NP Membership - FREE</label>
-                <label class="sbs"><input type="radio" name="audience" value="bm"> Bronze Membership - $9,990 CLP</label>
-                <label class="sbs"><input type="radio" name="audience" value="sm"> Silver Membership - $19,990 CLP</label> 
-                <label class="sbs"><input type="radio" name="audience" value="gm"> Gold Membership - $29,990 CLP</label>
+                <legend>Room Type</legend>
+                <label class="sbs"><input type="radio" name="room" value="regular"> Regular Room</label>
+                <label class="sbs"><input type="radio" name="room" value="family"> Family Room</label>
+                <label class="sbs"><input type="radio" name="room" value="premium"> Premium Room</label> 
             </fieldset>
             <p id="requiredf">All the fields that has an asterisk(*) are a required field to submit the form.</p>
-            <input type="submit" value="Join!" class="submitBtn">
+            <input type="submit" value="Book Now!" class="submitBtn">
         </form>
     </main>
     <footer>
