@@ -329,3 +329,65 @@ form label.top input:required:valid {
   display: block;
   text-align: center;
 }
+
+/*Directory Page*/
+#businessHeadline {
+  margin: 0;
+}
+
+.cards {
+  padding: 10px;
+}
+
+.bcard {
+  background-color: rgb(246, 241, 234);
+  border-radius: 10px;
+  border: solid 3px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.bcard img {
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.bcard p {
+  text-align: center;
+}
+
+.blogo {
+  width: 150px;
+  height: auto;
+}
+
+.bgrid {
+  display: block;
+}
+
+.buttons {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#gridBtn,
+#listBtn {
+  color: #536878;
+  background-color: #f6f1ea;
+  transition: 0.5s;
+  border: none;
+  font-size: 2rem;
+  padding: 5px;
+}
+
+#gridBtn:hover,
+#listBtn:hover {
+  background-color: #f2f3ae;
+  color: #36454f;
+}
