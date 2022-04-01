@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/navigation.js"></script>
     <script defer src="js/footer.js"></script>
-    <script defer src="js/weather.js"></script>
+    <script defer src="js/temples.js"></script>
     <title>Temple Inn & Suites</title>
   </head>
   <body>
@@ -32,8 +32,8 @@
               <span>&#9776;</span><span>X</span>
             </button>
             <ul id="primarynav">
-              <li><a href="#">Home</a></li>
-              <li><a href="temple.html">Temple</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Temple</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
@@ -48,33 +48,13 @@
         <a href="book.html">Book Now</a>
       </div>
     </header>
-    <main>
-      <div class="weathertemple">
-        <section>
-          <h2 id="weatherheading">Estacion Central Weather</h2>
-          <img src="" alt="" id="weathericon" />
-          <p id="figcaption"></p>
-          <p>Current Temp: <span id="t"></span>&#176;F</p>
-          <p>Current Condition: <span id="c"></span></p>
-          <p>Humidity: <span id="h"></span></p>
-        </section>
-      </div>
-      <div class="information">
-        <h2>Information 1</h2>
-        <p>Information 1</p>
-      </div>
-      <div class="information">
-        <h2>Information 2</h2>
-        <p>Information 2</p>
-      </div>
-      <div class="information">
-        <h2>Information 3</h2>
-        <p>Information 3</p>
-      </div>
-      <div class="information">
-        <h2>Information 4</h2>
-        <p>Information 4</p>
-      </div>
+    <main class="bgrid">
+        <h2 id="businessHeadline">Temples</h2>
+          <div class="buttons">
+            <button id="gridBtn"><span>&#9871;</span></button>
+            <button id="listBtn"><span>&#9776;</span></button>
+          </div>
+        <div class="cards"></div>
     </main>
     <footer>
       <div id="fpart1">
