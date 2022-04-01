@@ -13,40 +13,40 @@
         "closure": "Temporarily closed"
       },
       {
-        "name": "Washington D.C Temple",
-        "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
-        "phone": "+13015880650",
+        "name": "Idaho Falls Idaho Temple",
+        "address": "1000 Memorial Dr Idaho Falls ID 83402-3410 United States",
+        "phone": "+12085227669",
         "email": "",
         "imageurl": "",
-        "services": "Temporarily closed",
-        "history": "19 November 1974 - Dedicated",
-        "ordinanceS": "Temporarily closed",
-        "sessionS": "Temporarily closed",
-        "closure": "Temporarily closed"
+        "services": ["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+        "history": "23 September 1945 - Dedicated",
+        "ordinanceS": "",
+        "sessionS": "",
+        "closure": ["Saturday, 2 April 2022","Tuesday, 28 June 2022 - Monday, 11 July 2022","Saturday, 1 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
       },
       {
-        "name": "Washington D.C Temple",
-        "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
-        "phone": "+13015880650",
+        "name": "Provo City Center Temple",
+        "address": "50 S University Ave, Provo, UT 84601, Estados Unidos",
+        "phone": "+18013432700",
         "email": "",
         "imageurl": "",
-        "services": "Temporarily closed",
-        "history": "19 November 1974 - Dedicated",
-        "ordinanceS": "Temporarily closed",
-        "sessionS": "Temporarily closed",
-        "closure": "Temporarily closed"
+        "services": ["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+        "history": "20 March 2016 - Dedicated",
+        "ordinanceS": "",
+        "sessionS": "",
+        "closure": ["Saturday, 2 April 2022","Monday, 20 June 2022 - Monday, 4 July 2022","Saturday, 1 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Monday, 28 November 2022 - Monday, 12 December 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"]
       },
       {
-        "name": "Washington D.C Temple",
-        "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
-        "phone": "+13015880650",
+        "name": "Mesa Arizona Temple",
+        "address": "101 S Lesueur, Mesa, AZ 85204, Estados Unidos",
+        "phone": "+14808331211",
         "email": "",
         "imageurl": "",
-        "services": "Temporarily closed",
-        "history": "19 November 1974 - Dedicated",
-        "ordinanceS": "Temporarily closed",
-        "sessionS": "Temporarily closed",
-        "closure": "Temporarily closed"
+        "services": ["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+        "history": "23 October 1927 - Dedicated",
+        "ordinanceS": "",
+        "sessionS": "",
+        "closure": ["Saturday, 2 April 2022","Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations)","Monday, 18 July 2022 - Monday, 1 August 2022","Saturday, 1 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022"]
       }
     ]
   }
