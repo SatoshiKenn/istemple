@@ -1,0 +1,52 @@
+{
+    "temples": [
+      {
+        "name": "Washington D.C Temple",
+        "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+        "phone": "+13015880650",
+        "email": "",
+        "imageurl": "",
+        "services": "Temporarily closed",
+        "history": "19 November 1974 - Dedicated",
+        "ordinanceS": "Temporarily closed",
+        "sessionS": "Temporarily closed",
+        "closure": "Temporarily closed"
+      },
+      {
+        "name": "Washington D.C Temple",
+        "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+        "phone": "+13015880650",
+        "email": "",
+        "imageurl": "",
+        "services": "Temporarily closed",
+        "history": "19 November 1974 - Dedicated",
+        "ordinanceS": "Temporarily closed",
+        "sessionS": "Temporarily closed",
+        "closure": "Temporarily closed"
+      },
+      {
+        "name": "Washington D.C Temple",
+        "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+        "phone": "+13015880650",
+        "email": "",
+        "imageurl": "",
+        "services": "Temporarily closed",
+        "history": "19 November 1974 - Dedicated",
+        "ordinanceS": "Temporarily closed",
+        "sessionS": "Temporarily closed",
+        "closure": "Temporarily closed"
+      },
+      {
+        "name": "Washington D.C Temple",
+        "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+        "phone": "+13015880650",
+        "email": "",
+        "imageurl": "",
+        "services": "Temporarily closed",
+        "history": "19 November 1974 - Dedicated",
+        "ordinanceS": "Temporarily closed",
+        "sessionS": "Temporarily closed",
+        "closure": "Temporarily closed"
+      }
+    ]
+  }
