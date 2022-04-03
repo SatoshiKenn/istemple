@@ -93,12 +93,6 @@
     text-align: center;
   }
 
-  #membershipi {
-    flex-flow: column;
-    grid-column: 1;
-    margin: 0 auto;
-  }
-
   #form {
     grid-column: 2;
   }
@@ -109,29 +103,18 @@
     height: 5em;
   }
 
-  .cardm {
-    width: 400px;
-    box-shadow: 1px 1px 4px 1px #888;
-    border-radius: 5px;
-    background-color: white;
-    overflow: hidden;
-    text-align: center;
-    margin: 5px;
-    margin-top: 25px;
-  }
-
-  .cardm p,
-  .cardm h2 {
-    font-size: 1rem;
-  }
-
-  .membericon {
-    width: 100px;
-    height: auto;
-  }
-
   #address {
     display: block;
     font-size: .8rem;
+  }
+
+  /*Temple page*/
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+    margin: 0 auto;
   }
 }

@@ -301,11 +301,6 @@ form label.top input:required:valid {
   font-size: 0.9rem;
 }
 
-#membershipi {
-  display: flex;
-  flex-flow: column;
-}
-
 .cardm {
   width: 300px;
   box-shadow: 1px 1px 4px 1px #888;
@@ -330,8 +325,8 @@ form label.top input:required:valid {
   text-align: center;
 }
 
-/*Directory Page*/
-#businessHeadline {
+/*Temple Page*/
+#templesHeadline {
   margin: 0;
 }
 
@@ -346,7 +341,7 @@ form label.top input:required:valid {
 }
 
 .bcard {
-  background-color: rgb(235, 203, 154);
+  background-color:rgba(235, 203, 154, 0.3);
   border-radius: 10px;
   border: solid 3px;
   display: flex;
@@ -374,27 +369,4 @@ form label.top input:required:valid {
 
 .bgrid {
   display: block;
-}
-
-.buttons {
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-#gridBtn,
-#listBtn {
-  color: #536878;
-  background-color: #f6f1ea;
-  transition: 0.5s;
-  border: none;
-  font-size: 2rem;
-  padding: 5px;
-}
-
-#gridBtn:hover,
-#listBtn:hover {
-  background-color: #f2f3ae;
-  color: #36454f;
 }

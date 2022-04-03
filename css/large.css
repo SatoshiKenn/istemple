@@ -87,12 +87,6 @@
     grid-column: 1/3;
   }
 
-  #membershipi {
-    flex-flow: column;
-    grid-column: 1;
-    margin: 0 auto;
-  }
-
   #form {
     grid-column: 2;
   }
