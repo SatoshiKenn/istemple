@@ -336,6 +336,12 @@ form label.top input:required:valid {
 }
 
 .cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  text-align: center;
+  margin: 0 auto;
   padding: 10px;
 }
 
@@ -354,6 +360,7 @@ form label.top input:required:valid {
   margin: 0 auto;
   border-radius: 10px;
   margin-top: 5px;
+  width: 300px;
 }
 
 .bcard p {
