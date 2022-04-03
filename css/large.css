@@ -100,4 +100,17 @@
   #address {
     font-size: 1rem;
   }
+
+  .bcard img {
+    width: 400px;
+  }
+
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+    margin: 0 auto;
+  }
 }

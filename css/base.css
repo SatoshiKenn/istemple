@@ -340,7 +340,7 @@ form label.top input:required:valid {
 }
 
 .bcard {
-  background-color: rgb(246, 241, 234);
+  background-color: rgb(235, 203, 154);
   border-radius: 10px;
   border: solid 3px;
   display: flex;
