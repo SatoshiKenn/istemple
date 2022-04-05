@@ -242,7 +242,8 @@ form div {
 }
 
 form label.top input,
-form label.top select {
+form label.top select,
+#form > fieldset:nth-child(1) > input {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -271,11 +272,13 @@ form input.submitBtn {
   max-width: 20rem;
 }
 
-form label.top input:required {
+form label.top input:required,
+#form > fieldset:nth-child(1) > input:required {
   border: red solid 1.5px;
 }
 
-form label.top input:required:valid {
+form label.top input:required:valid,
+#form > fieldset:nth-child(1) > input:required:valid {
   border: green solid 1.5px;
 }
 
@@ -317,6 +320,10 @@ form label.top input:required:valid {
 
 #h1form {
   font-size: 1.5rem;
+}
+
+#locations option {
+  font-size: .7rem;
 }
 
 /*thanks page*/

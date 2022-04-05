@@ -49,7 +49,7 @@
     </header>
     <main id="bform">
         <h1 id="h1form">Book Form</h1>
-        <h2 id="h2form">Membership Levels</h2>
+        <h2 id="h2form">Room Types</h2>
         <div id="membershipi">
           <article class="cardm">
             <h2>Regular Room</h2>
@@ -76,23 +76,38 @@
         <form id="form" method="get" action="thanks.html">
             <fieldset>
                 <legend>Your Stay</legend>
-                <label class="top">Check-In<input type="date" name="checkin" required></label>
-                <label class="top">Check-Out<input type="date" name="checkout" required></label>
+                <label class="top">Check-In*<input type="date" name="checkin" required></label>
+                <label class="top">Check-Out*<input type="date" name="checkout" required></label>
+                <label class="top">Choose your location*</label>
+                <input list="locations" name="location" required>
+                <datalist id="locations">
+                  <option value="Washington D.C Temple">
+                  <option value="Idaho Falls Idaho Temple">
+                  <option value="Provo City Center Temple">
+                  <option value="Mesa Arizona Temple">
+                </datalist>
             </fieldset>
             <fieldset>
                 <legend>Contact Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                 <label class="top">Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
-                <label class="top">Home State/Country <input type="text" name="home" required></label>
+                <label class="top">Home State/Country* <input type="text" name="home" required></label>
                 <input id="formdate" type="hidden" name="date">
             </fieldset>
             <fieldset>
                 <legend>Room Type</legend>
-                <label class="sbs"><input type="radio" name="room" value="regular"> Regular Room</label>
-                <label class="sbs"><input type="radio" name="room" value="family"> Family Room</label>
-                <label class="sbs"><input type="radio" name="room" value="premium"> Premium Room</label> 
+                <label class="sbs"><input type="radio" name="room" value="regular" required> Regular Room</label>
+                <label class="sbs"><input type="radio" name="room" value="family" required> Family Room</label>
+                <label class="sbs"><input type="radio" name="room" value="premium" required> Premium Room</label> 
+                <label class="top">Number of rooms*<input type="number" 
+                  id="myNumber"
+                  step="1" 
+                  name="nroom" 
+                  placeholder="maximum value is 5" 
+                  max="5"
+                  min="1" required></label>
             </fieldset>
             <fieldset>
               <legend>Comments</legend>

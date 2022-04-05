@@ -93,6 +93,12 @@
     text-align: center;
   }
 
+  #membershipi{
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 40px;
+  }
+
   #form {
     grid-column: 2;
   }

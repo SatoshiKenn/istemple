@@ -79,12 +79,13 @@
     grid-template-rows: auto;
     margin-top: 50px;
     max-width: 1000px;
+    margin-top: 100px;
   }
 
   #h1form {
     font-size: 1.5rem;
     grid-row: 1;
-    grid-column: 1/3;
+    grid-column: 1/6;
   }
 
   #form {
@@ -93,6 +94,12 @@
 
   #address {
     font-size: 1rem;
+  }
+  
+  #membershipi{
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 40px;
   }
 
   .bcard img {
@@ -108,3 +115,4 @@
     margin: 0 auto;
   }
 }
+
