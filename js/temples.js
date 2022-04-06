@@ -22,8 +22,8 @@ function displayTemple(temple) {
     <strong>Services:</strong> ${temple.services}<br/>
     <strong>Telephone:</strong> ${temple.phone}</br>
     <strong>History:</strong> ${temple.history}</br>
-    <strong>Ordinances schedule:</strong> ${temple.ordinances}</br>
-    <strong>Session schedule:</strong> ${temple.sesssionS}</br>
+    <strong>Ordinances schedule:</strong> ${temple.ordinanceS}</br>
+    <strong>Session schedule:</strong> ${temple.sessionS}</br>
     <strong>Closures:</strong> ${temple.closure}`;
 
   logo.setAttribute("src", temple.imageurl);
