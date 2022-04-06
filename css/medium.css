@@ -143,6 +143,30 @@
   .closurep {
     font-size: 1rem;
   }
+
+  /*services*/
+  #services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #services h1 {
+    grid-column: 1/3;
+  }
+
+  #special ul li {
+    padding: 5px;
+  }
+
+  #amenities ul li{
+    padding: 10px;
+  }
+
+  .subpages {
+    grid-column: 1/3;
+    margin: 0 auto;
+  }
+
   /*missionaries*/
   #missionaries {
     display: grid;
