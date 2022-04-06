@@ -143,4 +143,41 @@
   .closurep {
     font-size: 1rem;
   }
+  /*missionaries*/
+  #missionaries {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  #missionaryh {
+    grid-column: 1/3;
+    margin: 0 auto;
+  }
+
+  #missionaries p {
+    text-align: center;
+  }
+
+  #servingp {
+    margin-top: 25%;
+  }
+
+  #contactusm {
+    margin-top: 30%;
+  }
+
+  #contactusm {
+    margin-top: 50px;
+  }
+
+  #form {
+    display: flex;
+    flex-flow: column;
+  }
+
+  #requiredf {
+    margin-top: 1px;
+  }
 }

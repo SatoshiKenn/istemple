@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+/*home*/
+
+main {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
 body {
   font-family: "Lora", serif;
 }
