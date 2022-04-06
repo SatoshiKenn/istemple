@@ -18,10 +18,10 @@ function displayTemple(temple) {
   let p = document.createElement("p");
 
   h2.textContent = `${temple.name}`;
-  p.innerHTML = `Address: ${temple.address}<br/>
-    Services: ${temple.services}<br/>
-    Phone: ${temple.phone}</br>
-    Closure: ${temple.closure}`;
+  p.innerHTML = `<strong>Address:</strong> ${temple.address}<br/>
+    <strong>Services:</strong> ${temple.services}<br/>
+    <strong>Phone:</strong> ${temple.phone}</br>
+    <strong>Closure:</strong> ${temple.closure}`;
 
   logo.setAttribute("src", temple.imageurl);
   logo.setAttribute("alt", `${temple.name}'s logo`);
