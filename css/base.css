@@ -441,3 +441,34 @@ div.subpages a:nth-child(2) {
   width: 300px;
   border-radius: 10px;
 }
+
+/*missionary*/
+
+#missionaries {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  padding: 10px;
+}
+
+#contactusm {
+  display: flex;
+  flex-flow: column;
+  row-gap: 10px;
+}
+
+#missionaryh {
+  font-size: 1.5rem;
+}
+
+.emailm,
+.phonem {
+  font-size: 1rem;
+  color: #474747;
+}
+
+#missionaryroom img {
+  width: 300px;
+  border-radius: 10px;
+  margin: 10px;
+}
