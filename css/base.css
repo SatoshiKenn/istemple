@@ -333,6 +333,7 @@ form label.top input:required:valid,
 }
 
 /*Temple Page*/
+
 #templesHeadline {
   margin: 0;
 }
@@ -342,7 +343,6 @@ form label.top input:required:valid,
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
-  text-align: center;
   margin: 0 auto;
   padding: 10px;
 }
@@ -370,7 +370,8 @@ form label.top input:required:valid,
 }
 
 .bcard p {
-  text-align: center;
+  text-align: left;
+  padding: 10px;
 }
 
 .blogo {
@@ -378,8 +379,9 @@ form label.top input:required:valid,
   height: auto;
 }
 
-.bgrid {
-  display: block;
+.templegrid {
+  display: grid;
+  text-align: center;
 }
 
 /*services*/

@@ -20,8 +20,11 @@ function displayTemple(temple) {
   h2.textContent = `${temple.name}`;
   p.innerHTML = `<strong>Address:</strong> ${temple.address}<br/>
     <strong>Services:</strong> ${temple.services}<br/>
-    <strong>Phone:</strong> ${temple.phone}</br>
-    <strong>Closure:</strong> ${temple.closure}`;
+    <strong>Telephone:</strong> ${temple.phone}</br>
+    <strong>History:</strong> ${temple.history}</br>
+    <strong>Ordinances schedule:</strong> ${temple.ordinances}</br>
+    <strong>Session schedule:</strong> ${temple.sesssionS}</br>
+    <strong>Closures:</strong> ${temple.closure}`;
 
   logo.setAttribute("src", temple.imageurl);
   logo.setAttribute("alt", `${temple.name}'s logo`);
