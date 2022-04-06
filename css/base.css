@@ -424,3 +424,20 @@ div.subpages a:nth-child(2) {
   text-decoration:dashed;
   text-align: left;
 }
+
+/*reception*/
+
+#reception {
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  row-gap: 10px;
+}
+
+#receptionimg img {
+  width: 300px;
+  border-radius: 10px;
+}
