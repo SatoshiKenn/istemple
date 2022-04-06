@@ -123,4 +123,12 @@
     text-align: center;
     margin: 0 auto;
   }
+
+  body > main > div > section:nth-child(1) {
+    row-gap: 16px;
+  }
+
+  .closurep {
+    font-size: 1rem;
+  }
 }

@@ -14,6 +14,7 @@ function displayTemple(temple) {
   card.setAttribute("class", "bcard");
 
   let templeimg = document.createElement("img");
+  let aimg = document.createElement("a");
   let h2 = document.createElement("h2");
   let address = document.createElement("p");
   let services = document.createElement("p");
@@ -38,12 +39,15 @@ function displayTemple(temple) {
   atelephone.innerHTML = `${temple.phone}`
 
   closures.setAttribute("class", "closurep");
+  aimg.setAttribute("href", `${temple.link}`)
+  aimg.setAttribute("target", "_blank")
   templeimg.setAttribute("src", temple.imageurl);
   templeimg.setAttribute("alt", `${temple.name}'s logo`);
   templeimg.setAttribute("loading", "lazy");
   templeimg.setAttribute("class", "timg");
 
-  card.appendChild(templeimg);
+  aimg.appendChild(templeimg);
+  card.appendChild(aimg);
   card.appendChild(h2);
   card.appendChild(address);
   card.appendChild(services);
