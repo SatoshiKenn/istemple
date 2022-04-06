@@ -386,6 +386,7 @@ form label.top input:required:valid,
 .templegrid {
   display: grid;
   text-align: center;
+  padding: 10px;
 }
 
 /*services*/
