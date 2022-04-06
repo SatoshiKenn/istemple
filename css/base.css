@@ -384,12 +384,12 @@ form label.top input:required:valid,
   flex-flow: column;
   text-align: center;
   gap: 20px;
+  margin: 20px;
 }
 .subpages {
   display: flex;
   padding: 10px;
   text-align: center;
-  row-gap: 10px;
 }
 .subpages a {
   color: #fff;
@@ -420,3 +420,7 @@ div.subpages a:nth-child(2) {
   border-radius: 10px;
 }
 
+#special ul li,#amenities ul li {
+  text-decoration:dashed;
+  text-align: left;
+}
