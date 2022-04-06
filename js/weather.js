@@ -11,7 +11,7 @@ fetch(apiURL)
     document.querySelector("#t").textContent = jsObject.current.temp.toFixed(1);
     document.querySelector("#c").textContent = jsObject.current.weather[0].description;
     document.querySelector("#h").textContent = jsObject.current.humidity;
-    document.querySelector("#morning").textContent = jsObject.daily[0].temp.morn;
-    document.querySelector("#evening").textContent = jsObject.daily[0].temp.eve;
-    document.querySelector("#night").textContent = jsObject.daily[0].temp.night;
+    document.querySelector("#morning").textContent = jsObject.daily[0].temp.morn.toFixed(1);
+    document.querySelector("#evening").textContent = jsObject.daily[0].temp.eve.toFixed(1);
+    document.querySelector("#night").textContent = jsObject.daily[0].temp.night.toFixed(1);
   });

@@ -377,3 +377,46 @@ form label.top input:required:valid,
 .bgrid {
   display: block;
 }
+
+/*services*/
+#services {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  gap: 20px;
+}
+.subpages {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  row-gap: 10px;
+}
+.subpages a {
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background-color: #a12b2b;
+  transition: 0.5s;
+  font-family: "Abril Fatface", cursive;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+div.subpages a:nth-child(1) {
+  height: 50px;
+  margin-top: 25px;
+}
+
+div.subpages a:nth-child(2) {
+  height: 75px;
+}
+
+.subpages a:hover {
+  background-color: #ebcb9a;
+  color: #474747;
+  border-radius: 10px;
+}
+
