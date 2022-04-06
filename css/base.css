@@ -379,6 +379,10 @@ form label.top input:required:valid,
   height: auto;
 }
 
+.closurep {
+  font-size: .8rem;
+}
+
 .templegrid {
   display: grid;
   text-align: center;
