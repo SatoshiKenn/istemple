@@ -466,7 +466,7 @@ div.subpages a:nth-child(2) {
   row-gap: 10px;
 }
 
-#receptionimg img {
+.receptionimg img {
   width: 300px;
   border-radius: 10px;
 }

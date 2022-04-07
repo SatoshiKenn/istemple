@@ -198,6 +198,49 @@
     margin: 0 auto;
   }
 
+  /*reception*/
+  #reception {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 1.5rem;
+    row-gap: 40px;
+  }
+
+  #reception > h3:nth-child(7) {
+    margin-top: 25%;
+  }
+
+  #reception > p:nth-child(8) {
+    grid-column: 2;
+    grid-row: 5/6;
+    margin-top: 35%;
+  }
+
+  #reception > h3:nth-child(7) {
+    margin-top: 15%;
+  }
+
+  #reception > p:nth-child(8) {
+    margin-top: 25%;
+  }
+
+  #reception > h3:nth-child(10) {
+    margin-top: 10%;
+  }
+
+  #reception > p:nth-child(11) {
+    margin-top: 20%;
+  }
+
+  #reception > h3:nth-child(13) {
+    margin-top: 15%;
+  }
+
+  #reception > p:nth-child(14) {
+    margin-top: 25%;
+  }
+
   /*missionaries*/
   #missionaries {
     margin: 0 auto;
