@@ -233,11 +233,7 @@
   }
 
   #contactusm {
-    margin-top: 30%;
-  }
-
-  #contactusm {
-    margin-top: -100px;
+    margin-top: 10%;
   }
 
   #form {
@@ -278,5 +274,6 @@
 
   #contactusinfo a {
     font-size: 1.5rem;
+    text-decoration: none;
   }
 }
