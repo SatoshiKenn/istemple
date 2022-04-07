@@ -176,31 +176,33 @@
   }
 
   #moreinfo {
+    grid-row: 1;
     grid-column: 3/5;
   }
 
   /*services*/
 
   #services {
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
     margin-top: 80px;
     max-width: 1000px;
   }
 
   #services h1 {
-    grid-column: 1/6;
-  }
-
-  #special {
-    grid-column: 1/3;
+    grid-column: 1/4;
   }
 
   #amenities {
-    grid-column: 3/6;
+    grid-column: 1/4;
+  }
+
+  #special {
+    grid-column: 1/4;
   }
 
   .subpages {
-    grid-column: 1/3;
+    grid-column: 1/4;
     margin: 0 auto;
   }
 
