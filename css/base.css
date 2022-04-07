@@ -10,6 +10,8 @@ main {
   display: flex;
   flex-flow: column;
   text-align: center;
+  padding: 10px;
+  row-gap: 10px;
 }
 
 body {
@@ -47,6 +49,66 @@ h3 {
 
 .logo img {
   width: 100px;
+}
+
+#temple1 {
+  border-style: solid;
+  height: 200px;
+  width: auto;
+  margin: 5px;
+  overflow: hidden;
+}
+
+#temple1 img {
+  height: 155px;
+  width: auto;
+  padding: 5px;
+}
+
+#temple1 h1 {
+  font-size: 1rem;
+}
+
+#temple1 p {
+  font-size: 1rem;
+}
+
+#info1 {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+}
+
+#temple1 {
+  grid-row: 1;
+  border-style: solid;
+  border-radius: 10px;
+  height: 200px;
+  max-width: 400px;
+  width: auto;
+  margin: 5px;
+  display: grid;
+  overflow: hidden;
+  background-color: #f6f1ea;
+}
+
+#temple1 .templeimg {
+  height: 155px;
+  width: auto;
+  grid-row: 2;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#temple1 h1 {
+  grid-column: 1/3;
+  font-size: 1rem;
+}
+
+#temple1 p {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 20px;
 }
 
 /* nav css*/
