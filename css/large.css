@@ -75,7 +75,7 @@
 
   #bform {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin-top: 50px;
     max-width: 1000px;
@@ -85,21 +85,30 @@
   #h1form {
     font-size: 1.5rem;
     grid-row: 1;
-    grid-column: 1/6;
+    grid-column: 1;
   }
 
-  #form {
-    grid-column: 2;
+  #bookform {
+    grid-column: 1;
+    grid-row: 4;
   }
 
   #address {
     font-size: 1rem;
   }
 
-  #membershipi {
-    grid-column: 1;
+  #h2form {
+    font-size: 1.5rem;
     grid-row: 2;
-    margin-top: 40px;
+    grid-column: 1;
+    margin: 0 auto;
+  }
+
+  #rooms {
+    display: flex;
+    grid-column: 1;
+    grid-row: 3;
+    margin: 0 auto;
   }
 
   /*temple*/
@@ -228,7 +237,7 @@
   }
 
   #contactusm {
-    margin-top: 50px;
+    margin-top: -100px;
   }
 
   #form {

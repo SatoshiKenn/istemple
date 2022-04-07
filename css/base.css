@@ -251,7 +251,7 @@ form div {
 
 form label.top input,
 form label.top select,
-#form > fieldset:nth-child(1) > input {
+#bookform > fieldset:nth-child(1) > input {
   -webkit-appearance: none;
   display: block;
   font-size: 1rem;
@@ -281,12 +281,12 @@ form input.submitBtn {
 }
 
 form label.top input:required,
-#form > fieldset:nth-child(1) > input:required {
+#bookform > fieldset:nth-child(1) > input:required {
   border: red solid 1.5px;
 }
 
 form label.top input:required:valid,
-#form > fieldset:nth-child(1) > input:required:valid {
+#bookform > fieldset:nth-child(1) > input:required:valid {
   border: green solid 1.5px;
 }
 
@@ -319,11 +319,12 @@ form label.top input:required:valid,
   background-color: white;
   text-align: center;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 .cardm p,
 .cardm h2 {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 #h1form {
@@ -331,7 +332,15 @@ form label.top input:required:valid,
 }
 
 #locations option {
-  font-size: .7rem;
+  font-size: 0.7rem;
+}
+
+#rooms {
+  padding: 20px;
+}
+
+.roomimg {
+  width: 200px;
 }
 
 /*thanks page*/
@@ -356,19 +365,19 @@ form label.top input:required:valid,
 }
 
 .bcard {
-  background-color:rgba(235, 203, 154, 0.1);
+  background-color: rgba(235, 203, 154, 0.1);
   border-radius: 10px;
   display: flex;
   flex-flow: column;
   justify-content: center;
   text-align: center;
   margin-top: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
 .bcard:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .bcard img {
   margin: 0 auto;
@@ -388,7 +397,7 @@ form label.top input:required:valid,
 }
 
 .closurep {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .templegrid {
@@ -439,8 +448,9 @@ div.subpages a:nth-child(2) {
   border-radius: 10px;
 }
 
-#special ul li,#amenities ul li {
-  text-decoration:dashed;
+#special ul li,
+#amenities ul li {
+  text-decoration: dashed;
   text-align: left;
 }
 
