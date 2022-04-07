@@ -572,3 +572,36 @@ div.subpages a:nth-child(2) {
   text-align: center;
   padding: 10px;
 }
+
+/*LIKE*/
+a.panel-group_btn {
+  color: #888;
+  display: block;
+  text-decoration: none;
+}
+
+a.like-btn {
+  color: #888;
+  font-size: 14px;
+}
+
+span.clicked {
+  color: #a12b2b;
+  font-weight: bold;
+}
+
+#like1 {
+  grid-row: 2;
+}
+
+#like2 {
+  grid-row: 4;
+}
+
+#like3 {
+  grid-row: 6;
+}
+
+#like4 {
+  grid-row: 8;
+}

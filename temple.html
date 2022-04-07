@@ -18,9 +18,11 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script defer src="js/navigation.js"></script>
     <script defer src="js/footer.js"></script>
     <script defer src="js/temples.js"></script>
+    <script defer src="js/like.js"></script>
     <title>Temple Inn & Suites</title>
   </head>
   <body>
@@ -39,7 +41,6 @@
             </ul>
           </nav>
         </div>
-        <p><span id="date"></span></p>
       </div>
       <div class="logo">
         <img src="images/logow.webp" alt="Temple Inn & Suites Logo" />
@@ -49,9 +50,26 @@
       </div>
     </header>
     <main class="templegrid">
-        <h2 id="templesHeadline">Temples</h2>
-        <p id="moreinfo">If you want more detail information just click on the temple's picture and it will open a new tab with more information about the temple.</p>
-        <div class="cards"></div>
+      <h2 id="templesHeadline">Temples</h2>
+      <p id="moreinfo">
+        If you want more detail information just click on the temple's picture
+        and it will open a new tab with more information about the temple. Also
+        you can click on the heart to like your favorite temple location!
+      </p>
+      <div class="cards">
+        <a id="like1" class="panel-group_btn" href="#">
+          <span id="like-01" class="like-btn"> <3 </span>
+        </a>
+        <a id="like2" class="panel-group_btn" href="#">
+          <span id="like-02" class="like-btn"> <3 </span>
+        </a>
+        <a id="like3" class="panel-group_btn" href="#">
+          <span id="like-03" class="like-btn"> <3 </span>
+        </a>
+        <a id="like4" class="panel-group_btn" href="#">
+          <span id="like-04" class="like-btn"> <3 </span>
+        </a>
+      </div>
     </main>
     <footer>
       <div id="fpart1">
@@ -62,9 +80,15 @@
           >inn.suites@istemple.com</a
         >
         <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
-        <a href="https://www.facebook.com" target="_blank"><img class="social" src="images/facebook.webp" alt="Facebook Icon"></a>
-        <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/instagram.webp" alt="Instagram Icon"></a>
-        <a href="https://goo.gl/maps/tx4ZZjSq3oX6MF1C9" target="_blank"><img class="social" src="images/maps.webp" alt="maps Icon"></a>
+        <a href="https://www.facebook.com" target="_blank"
+          ><img class="social" src="images/facebook.webp" alt="Facebook Icon"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img class="social" src="images/instagram.webp" alt="Instagram Icon"
+        /></a>
+        <a href="https://goo.gl/maps/tx4ZZjSq3oX6MF1C9" target="_blank"
+          ><img class="social" src="images/maps.webp" alt="maps Icon"
+        /></a>
         <p id="address">4840 Montgomery Ln #320, Bethesda, MD 20814, USA</p>
       </div>
       <div id="fpart2">
