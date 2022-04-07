@@ -208,4 +208,16 @@
   #requiredf {
     margin-top: 1px;
   }
+
+  /*contact us*/
+  #contactus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  #contactusinfo {
+    margin-top: -50px;
+  }
 }

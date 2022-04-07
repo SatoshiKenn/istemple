@@ -21,7 +21,6 @@
     <script defer src="js/navigation.js"></script>
     <script defer src="js/footer.js"></script>
     <script defer src="js/weather.js"></script>
-    <script defer src="js/dates.js"></script>
     <title>Temple Inn & Suites</title>
   </head>
   <body>
@@ -33,13 +32,14 @@
               <span>&#9776;</span><span>X</span>
             </button>
             <ul id="primarynav">
-              <li><a href="#">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="temple.html">Temple</a></li>
               <li><a href="services.html">Services</a></li>
-              <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="#">Contact Us</a></li>
             </ul>
           </nav>
         </div>
+        <p><span id="date"></span></p>
       </div>
       <div class="logo">
         <img src="images/logow.webp" alt="Temple Inn & Suites Logo" />
@@ -48,38 +48,44 @@
         <a href="reservation.html">Book Now</a>
       </div>
     </header>
-    <main>
-      <div class="weathertemple">
-        <section>
-          <h2 id="weatherheading">Temple Inn & Suites Weather</h2>
-          <img src="" alt="" id="weathericon" />
-          <p id="figcaption"></p>
-          <p>Current Temp: <span id="t"></span>&#176;F</p>
-          <p>Current Condition: <span id="c"></span></p>
-          <p>Humidity: <span id="h"></span></p>
-          <h3>Day Forecast</h3>
-          <p><span id="date"></span></p>
-          <p>Morning: <span id="morning"></span>&#176;F</p>
-          <p>Evening: <span id="evening"></span>&#176;F</p>
-          <p>Night: <span id="night"></span>&#176;F</p>
-        </section>
+    <main id="contactus">
+      <div id="contactusinfo">
+        <h2 id="h2form">Contact Us</h2>
+        <h3>Address</h3>
+        <p>4840 Montgomery Ln #320, Bethesda, MD 20814, USA</p>
+        <h3>Phone</h3>
+        <a class="phonem" href="tel:0000000000">+0 00 0000 0000</a>
+        <h3>Email</h3>
+        <a class="emailm" href="mailto:inn.suites@istemple.com" target="_blank"
+          >inn.suites@istemple.com</a
+        >
       </div>
-      <div id="info1" class="information">
-        <h2>Information 1</h2>
-        <p>Information 1</p>
-      </div>
-      <div id="info2" class="information">
-        <h2>Information 2</h2>
-        <p>Information 2</p>
-      </div>
-      <div id="info3" class="information">
-        <h2>Information 3</h2>
-        <p>Information 3</p>
-      </div>
-      <div id="info4" class="information">
-        <h2>Information 4</h2>
-        <p>Information 4</p>
-      </div>
+      <form id="form" method="get" action="thanksm.html">
+        <fieldset>
+          <legend>Contact Form</legend>
+          <label class="top"
+            >Name* <input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Email*
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="someone@gmail.com"
+          /></label>
+          <label class="top"
+            >Question/Concern*
+            <textarea id="description" name="bdescription"></textarea>
+          </label>
+          <input id="formdate" type="hidden" name="date" />
+        </fieldset>
+        <p id="requiredf">
+          All the fields that has an asterisk(*) are a required field to submit
+          the form.
+        </p>
+        <input type="submit" value="Ask us!" class="submitBtn" />
+      </form>
     </main>
     <footer>
       <div id="fpart1">
@@ -90,9 +96,15 @@
           >inn.suites@istemple.com</a
         >
         <a class="phone" href="tel:0000000000">+0 00 0000 0000</a>
-        <a href="https://www.facebook.com" target="_blank"><img class="social" src="images/facebook.webp" alt="Facebook Icon"></a>
-        <a href="https://www.instagram.com" target="_blank"><img class="social" src="images/instagram.webp" alt="Instagram Icon"></a>
-        <a href="https://goo.gl/maps/tx4ZZjSq3oX6MF1C9" target="_blank"><img class="social" src="images/maps.webp" alt="maps Icon"></a>
+        <a href="https://www.facebook.com" target="_blank"
+          ><img class="social" src="images/facebook.webp" alt="Facebook Icon"
+        /></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><img class="social" src="images/instagram.webp" alt="Instagram Icon"
+        /></a>
+        <a href="https://goo.gl/maps/tx4ZZjSq3oX6MF1C9" target="_blank"
+          ><img class="social" src="images/maps.webp" alt="maps Icon"
+        /></a>
         <p id="address">4840 Montgomery Ln #320, Bethesda, MD 20814, USA</p>
       </div>
       <div id="fpart2">

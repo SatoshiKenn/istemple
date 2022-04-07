@@ -255,4 +255,28 @@
   #requiredf {
     margin-top: 1px;
   }
+
+  /*contact us*/
+  #contactus {
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  #contactusinfo {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 15%;
+    font-size: 1.5rem;
+  }
+
+  #contactusinfo h2 {
+    font-size: 2rem;
+    padding: 20px;
+  }
+
+  #contactusinfo a {
+    font-size: 1.5rem;
+  }
 }
